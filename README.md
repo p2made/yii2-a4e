@@ -1,4 +1,4 @@
-Yii 2 Advanced 4 Ends v0.0.1
+Yii 2 Advanced 4 Ends v0.0.2
 =====================
 
 Additions for giving Yii2 `API` & `assets` application ends.
