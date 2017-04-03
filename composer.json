@@ -4,7 +4,7 @@
 	"keywords": ["yii2", "framework", "advanced", "project template"],
 	"homepage": "https://github.com/p2made/yii2-a4e",
 	"type": "project",
-	"license": ["BSD-3-Clause", "MIT"],
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Pedro Plowman",
@@ -16,8 +16,10 @@
 		"issues": "https://github.com/p2made/yii2-a4e/issues?state=open",
 		"source": "https://github.com/p2made/yii2-a4e"
 	},
+
 	"version": "0.0.11",
 	"minimum-stability": "dev",
+
 	"require": {
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "^2.0",
@@ -29,25 +31,5 @@
 		"p2made/yii2-sb-admin-theme": "^2.2"
 	},
 	"require-dev": {
-		"yiisoft/yii2-debug": "^2.0",
-		"yiisoft/yii2-gii": "^2.0",
-		"yiisoft/yii2-faker": "^2.0",
-		"codeception/codeception": "^2.2",
-		"codeception/base": "^2.2",
-		"codeception/verify": "^0.3"
 	},
-	"config": {
-		"fxp-asset": {
-			"installer-paths": {
-				"npm-asset-library": "vendor/npm",
-				"bower-asset-library": "vendor/bower"
-			}
-		},
-		"process-timeout": 1800
-	},
-	"extra": {
-	},
-	"scripts": {
-		"post-install-cmd": "php init --env=Development --overwrite=n"
-	}
 }
