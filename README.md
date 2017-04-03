@@ -9,7 +9,7 @@ Installation
 First create a new Yii2 Advanced project by running...
 
 ```
-	composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
+composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
 ```
 
 *Before* running `init`, either...
