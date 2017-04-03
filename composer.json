@@ -1,6 +1,6 @@
 {
 	"name": "p2made/yii2-a4e",
-	"description": "Yii 2 Advanced 4 Ends Project Template",
+	"description": "4 application ends for Yii 2 Advanced",
 	"keywords": ["yii2", "framework", "advanced", "project template"],
 	"homepage": "https://github.com/p2made/yii2-a4e",
 	"type": "project",
@@ -16,7 +16,7 @@
 		"issues": "https://github.com/p2made/yii2-a4e/issues?state=open",
 		"source": "https://github.com/p2made/yii2-a4e"
 	},
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.4.0",
