@@ -43,5 +43,6 @@ cp -r ./vendor/p2made/yii2-a4e/environments ./
 The `environments` folder will be replaced.
 
 Now run `./init` as usual.
+Select `All` when prompted about replacing files.
 
 
