@@ -26,8 +26,8 @@ return [
 			'name' => 'advanced-backend',
 		],
 		'assetManager' => [
-			'basePath' => '@assets/web/pub',
-			'baseUrl' => '@assetsUrl/pub',
+			'basePath' => '@assets/web/backend/pub',
+			'baseUrl' => '@assetsUrl/backend/pub',
 		],
 		'log' => [
 			'traceLevel' => YII_DEBUG ? 3 : 0,

@@ -26,8 +26,8 @@ return [
 			'name' => 'advanced-api',
 		],
 		'assetManager' => [
-			'basePath' => '@assets/web/pub',
-			'baseUrl' => '@assetsUrl/pub',
+			'basePath' => '@assets/web/api/pub',
+			'baseUrl' => '@assetsUrl/api/pub',
 		],
 		'log' => [
 			'traceLevel' => YII_DEBUG ? 3 : 0,

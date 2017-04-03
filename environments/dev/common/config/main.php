@@ -9,8 +9,6 @@
 $_urlBase = 'a6e-dev.dev';
 $_urlBaseFrontend = 'http://'         . $_urlBase;
 $_urlBaseBackend  = 'http://backend.' . $_urlBase;
-$_urlBaseMembers  = 'http://members.' . $_urlBase;
-$_urlBaseMidend   = 'http://midend.'  . $_urlBase;
 $_urlBaseAssets   = 'http://static.'  . $_urlBase;
 $_urlBaseApi      = 'http://api.'     . $_urlBase;
 
@@ -25,8 +23,6 @@ return [
 		],
 		*/
 		'assetManager' => [
-			//'basePath' => '@assets/web/pub',
-			//'baseUrl' => '@assetsUrl/pub',
 			//'appendTimestamp' => true, // useful while developing custom assets
 			'bundles' => [
 				'yii\web\JqueryAsset' => [
@@ -64,14 +60,6 @@ return [
 		'urlManagerBackEnd' => [
 			'class' => 'yii\web\urlManager',
 			'baseUrl' => $_urlBaseBackend,
-		],
-		'urlManagerMembers' => [
-			'class' => 'yii\web\urlManager',
-			'baseUrl' => $_urlBaseMembers,
-		],
-		'urlManagerMidend' => [
-			'class' => 'yii\web\urlManager',
-			'baseUrl' => $_urlBaseMidend,
 		],
 		'urlManagerAssets' => [
 			'class' => 'yii\web\urlManager',

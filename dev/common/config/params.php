@@ -4,12 +4,14 @@ return [
 	'supportEmail' => 'support@example.com',
 	'user.passwordResetTokenExpire' => 3600,
 
-	'p2made' => [
-		'useStatic' => true, // false or not set to use published assets
-		'assetsEnd' => [
-			'basePath' => '@assets',
-			'baseUrl' => '@assetsUrl',
+	'p2m' => [
+		'assets' => [
+			'useStatic' => true, // false or not set to use published assets
+			'staticEnd' => [
+				'basePath' => '@static',
+				'baseUrl' => '@staticUrl',
+			],
 		],
-		'reverseDomain' => 'dev.a6e-dev', // customise for your host configuration
+		'reverseDomain' => 'dev.a4e-dev', // customise for your host configuration
 	],
 ];

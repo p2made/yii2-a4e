@@ -1,23 +1,41 @@
 <?php
+/**
+ * AppAsset.php
+ *
+ * @copyright Copyright &copy; Pedro Plowman, 2017
+ * @author Pedro Plowman
+ * @link https://github.com/p2made
+ * @package p2made/yii2-a6e
+ * @license MIT
+ */
+
+/**
+ * Load this asset with...
+ * api\assets\AppAsset::register($this);
+ *
+ * or specify as a dependency with...
+ *	 'api\assets\AppAsset',
+ */
 
 namespace api\assets;
 
-use yii\web\AssetBundle;
-
-/**
- * Main api application asset bundle.
- */
-class AppAsset extends AssetBundle
+class AppAsset extends \p2m\assets\base\P2AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
-    public $css = [
-        'css/site.css',
-    ];
-    public $js = [
-    ];
-    public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
-    ];
+	private $resourceData = array(
+
+		'published' => [
+			'sourcePath' => '@api/assets/lib',
+			'js' => [
+			],
+		],
+
+		'depends' => [
+		],
+	);
+
+	public function init()
+	{
+		$this->configureAsset($this->resourceData);
+		parent::init();
+	}
 }

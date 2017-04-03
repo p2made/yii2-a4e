@@ -26,8 +26,8 @@ return [
 			'name' => 'advanced-assets',
 		],
 		'assetManager' => [
-			'basePath' => '@assets/web/pub',
-			'baseUrl' => '@assetsUrl/pub',
+			'basePath' => '@assets/web/assets/pub',
+			'baseUrl' => '@assetsUrl/assets/pub',
 		],
 		'log' => [
 			'traceLevel' => YII_DEBUG ? 3 : 0,
