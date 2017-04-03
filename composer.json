@@ -8,9 +8,9 @@
 	"authors": [
 		{
 			"name": "Pedro Plowman",
-			"email": "pedrofp@me.com",
+			"email": "p2opensource@gmail.com",
 			"homepage": "https://github.com/p2made"
-		},
+		}
 	],
 	"support": {
 		"issues": "https://github.com/p2made/yii2-a4e/issues?state=open",
