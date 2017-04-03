@@ -1,4 +1,4 @@
-Yii 2 Advanced 4 Ends v0.0.7
+Yii 2 Advanced 4 Ends v0.0.8
 =====================
 
 Additions for giving Yii2 `API` & `assets` application ends.
@@ -37,97 +37,10 @@ to the requires section of your `composer.json` & run `composer update`.
 Next run...
 
 ```
-cp -r ./vendor/p2made/yii2-a4e/api ./
-cp -r ./vendor/p2made/yii2-a4e/assets ./
-cp -r ./vendor/p2made/yii2-a4e/common/* ./common/
-cp -r ./vendor/p2made/yii2-a4e/backend/* ./backend/
-cp -r ./vendor/p2made/yii2-a4e/frontend/* ./frontend/
-cp -r ./vendor/p2made/yii2-a4e/environments/* ./environments/
+cp -r ./vendor/p2made/yii2-a4e/environments ./
 ```
 
-The items copied from `common`, `backend`, `frontend`, & `environments` will replace the originals.
+The `environments` folder will be replaced.
 
 Now run `./init` as usual.
 
-
-DIRECTORY STRUCTURE
--------------------
-
-```
-api                 [likely to be stripped down]
-    assets/             contains application assets such as JavaScript and CSS
-    components/         contains api components
-    config/             contains api configurations
-    controllers/        contains Web controller classes
-    models/             contains api specific model classes
-    runtime/            contains files generated during runtime
-    tests/              contains tests for api application
-    views/              contains view files for the Web application
-    web/                contains the entry script and Web resources
-    widgets/            contains api widgets
-assets              a set of directories for static resources
-    assets/             contains application assets such as JavaScript and CSS
-    config/             contains static end configurations
-    controllers/        contains Web controller classes
-    runtime/            contains files generated during runtime
-    tests/              contains tests for static end application
-    views/              contains view files for the Web application
-    web/                contains the entry script and Web resources
-        backend/            for assets belonging solely to the backend
-            css/
-            fonts/
-            img/
-            js/
-            pub/            for published resources belonging to the backend
-        frontend/           for assets belonging solely to the frontend
-            css/
-            fonts/
-            img/
-            js/
-            pub/            for published resources belonging to the frontend
-        common/             for assets shared between ends
-            css/
-            fonts/
-            img/
-            js/
-            pub/            for published resources shared between ends
-        vendor/             for developer added vender resources
-backend
-    assets/             contains application assets such as JavaScript and CSS
-    components/         contains backend components
-    config/             contains backend configurations
-    controllers/        contains Web controller classes
-    models/             contains backend specific model classes
-    runtime/            contains files generated during runtime
-    tests/              contains tests for backend application
-    views/              contains view files for the Web application
-    web/                contains the entry script and Web resources
-    widgets/            contains backend widgets
-frontend
-    assets/             contains application assets such as JavaScript and CSS
-    components/         contains frontend components
-    config/             contains frontend configurations
-    controllers/        contains Web controller classes
-    models/             contains frontend specific model classes
-    runtime/            contains files generated during runtime
-    tests/              contains tests for frontend application
-    views/              contains view files for the Web application
-    web/                contains the entry script and Web resources
-    widgets/            contains frontend widgets
-common
-    assets/             contains application assets such as JavaScript and CSS
-    components/         contains shared components
-    config/             contains shared configurations
-    mail/               contains view files for e-mails
-    models/             contains model classes used in both backend and frontend
-    tests/              contains tests for common classes
-    widgets/            contains shared widgets
-console
-    config/             contains console configurations
-    controllers/        contains console controllers (commands)
-    migrations/         contains database migrations
-    models/             contains console specific model classes
-    runtime/            contains files generated during runtime
-vendor/                 contains dependent 3rd-party packages
-environments/           contains environment-based overrides
-```
