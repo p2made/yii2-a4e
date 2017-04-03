@@ -31,5 +31,5 @@
 		"p2made/yii2-sb-admin-theme": "^2.2"
 	},
 	"require-dev": {
-	},
+	}
 }
