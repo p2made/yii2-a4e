@@ -1,4 +1,4 @@
-Yii 2 Advanced 4 Ends v0.0.5
+Yii 2 Advanced 4 Ends v0.0.6
 =====================
 
 Additions for giving Yii2 `API` & `assets` application ends.
@@ -14,7 +14,7 @@ First create a new Yii2 Advanced project by running...
 
 *Before* running `init`, either...
 
-Run *one* of the following commands:
+Depending on your Composer setup, run *one* of the following commands:
 
 ```
 composer require p2made/yii2-a4e "^0.0"
