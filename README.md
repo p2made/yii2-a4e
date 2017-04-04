@@ -1,4 +1,4 @@
-Yii 2 Advanced 4 Ends v0.0.12
+Yii 2 Advanced 4 Ends v0.0.15
 =====================
 
 Additions for giving Yii2 `API` & `assets` application ends.
@@ -6,7 +6,7 @@ Additions for giving Yii2 `API` & `assets` application ends.
 Installation
 ------------
 
-First create a new Yii2 Advanced project by running...
+*One*... create a new Yii2 Advanced project by running...
 
 ```
 composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
@@ -34,7 +34,16 @@ php composer.phar require p2made/yii2-a4e "^0.0"
 
 to the requires section of your `composer.json` & run `composer update`.
 
-Next run...
+`yii2-a4e` installs...
+
+```
+	p2made/yii2-p2y2-things
+	p2made/yii2-p2y2-things-demo
+	p2made/yii2-startbootstrap-themes
+	p2made/yii2-sb-admin-theme
+```
+
+*Two*... run...
 
 ```
 cp -r ./vendor/p2made/yii2-a4e/environments ./
@@ -42,7 +51,37 @@ cp -r ./vendor/p2made/yii2-a4e/environments ./
 
 The `environments` folder will be replaced.
 
-Now run `./init` as usual.
-Select `All` when prompted about replacing files.
+*Three*... run `./init` as usual.
+
+Init to dev will replace some files. Select `All` when prompted.
+
+You now have application ends folders...
+
+```
+	api/
+	assets/
+	backend/
+	frontend/
+```
+
+If there are any application ends that you won't use, you can delete those folders, along with some extra deletions in config edits that follow.
+
+*Four*... edit some config files...
+
+In `common/config/bootstrap.php` edit the last line...
+```
+	Yii::setAlias('assetsUrl', 'http://static.a4e-dev.dev');
+```
+to have the URL for your static/assets application end.
+
+If you're discarding any ends, delete the lines setting aliases for them.
+
+In `common/config/main.php` edit the `$_urlBase...` values at the top according to your server configuration.
+
+If you're discarding any ends, delete the corresponding lines here, & also the lines below settung urlManagers for them.
+
+In `common/config/params.php` edit the `reverseDomain` value according to your server configuration.
+
+
 
 
