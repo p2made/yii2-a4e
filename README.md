@@ -1,4 +1,4 @@
-Yii 2 Advanced 4 Ends v0.0.15
+Yii 2 Advanced 4 Ends v0.0.16
 =====================
 
 Additions for giving Yii2 `API` & `assets` application ends.
@@ -12,7 +12,7 @@ Installation
 composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
 ```
 
-*Before* running `init`, either...
+*Two* *Before* running `init`, either...
 
 Depending on your Composer setup, run *one* of the following commands:
 
@@ -43,7 +43,7 @@ to the requires section of your `composer.json` & run `composer update`.
 	p2made/yii2-sb-admin-theme
 ```
 
-*Two*... run...
+*Three*... run...
 
 ```
 cp -r ./vendor/p2made/yii2-a4e/environments ./
@@ -51,9 +51,9 @@ cp -r ./vendor/p2made/yii2-a4e/environments ./
 
 The `environments` folder will be replaced.
 
-*Three*... run `./init` as usual.
+*Four*... run `./init` as usual.
 
-Init to dev will replace some files. Select `All` when prompted.
+Init to dev will replace some files. Select `All` when prompted. If you're going straight to a prod install for any reason, init to dev first so that these files do get replaced.
 
 You now have application ends folders...
 
