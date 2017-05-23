@@ -17,7 +17,7 @@
 		"source": "https://github.com/p2made/yii2-a4e"
 	},
 
-	"version": "0.0.16",
+	"version": "0.0.17",
 	"minimum-stability": "dev",
 
 	"require": {
