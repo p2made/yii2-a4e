@@ -15,6 +15,13 @@ $_urlBaseApi      = 'http://api.'     . $_urlBase;
 return [
 	'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 	'components' => [
+		// NOTE: in the yii2-advanced-app, the user component should be updated in
+		// 'frontend/config/main.php' and/or 'backend/config/main.php' (OR you can add it
+		// to 'common/config' if you remove it from frontend/backend)
+		/*
+		'user' => [
+		],
+		*/
 		'assetManager' => [
 			//'appendTimestamp' => true, // useful while developing custom assets
 			'bundles' => [
