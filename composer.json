@@ -24,7 +24,6 @@
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "^2.0",
 		"yiisoft/yii2-swiftmailer": "^2.0",
-
 		"p2made/yii2-p2y2-things": "^2.6",
 		"p2made/yii2-p2y2-things-demo": "^2.6",
 		"p2made/yii2-startbootstrap-themes": "^2.15",
