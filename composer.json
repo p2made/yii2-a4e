@@ -17,15 +17,15 @@
 		"source": "https://github.com/p2made/yii2-a4e"
 	},
 
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"minimum-stability": "dev",
 
 	"require": {
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "^2.0",
 		"yiisoft/yii2-swiftmailer": "^2.0",
-		"p2made/yii2-p2y2-things": "^2.7",
-		"p2made/yii2-p2y2-things-demo": "^2.7",
+		"p2made/yii2-p2y2-things": "^2.8",
+		"p2made/yii2-p2y2-things-demo": "^2.8",
 		"p2made/yii2-startbootstrap-themes": "^2.16",
 		"p2made/yii2-sb-admin-theme": "^2.5"
 	}
