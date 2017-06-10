@@ -1,6 +1,14 @@
 Yii 2 Advanced 4 Ends v0.1.1
 =====================
 
+[![License](https://poser.pugx.org/p2made/yii2-a4e/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Total Downloads](https://poser.pugx.org/p2made/yii2-a4e/downloads)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Monthly Downloads](https://poser.pugx.org/p2made/yii2-a4e/d/monthly)](https://packagist.org/packages/p2made/yii2-p2y2-things)
+[![Latest Stable Version](https://poser.pugx.org/p2made/yii2-a4e/v/stable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+[![Latest Unstable Version](https://poser.pugx.org/p2made/yii2-a4e/v/unstable)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
+
+---
+
 Additions for giving Yii2 `API` & `assets` application ends.
 
 Installation
@@ -17,19 +25,19 @@ composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
 Depending on your Composer setup, run *one* of the following commands:
 
 ```
-composer require p2made/yii2-a4e "^0.0"
+composer require p2made/yii2-a4e "^0.1"
 ```
 
 or
 
 ```
-php composer.phar require p2made/yii2-a4e "^0.0"
+php composer.phar require p2made/yii2-a4e "^0.1"
 ```
 
 *or* add:
 
 ```
-	"p2made/yii2-a4e": "^0.0"
+	"p2made/yii2-a4e": "^0.1"
 ```
 
 to the requires section of your `composer.json` & run `composer update`.
