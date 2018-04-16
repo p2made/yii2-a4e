@@ -1,4 +1,4 @@
-Yii 2 Advanced 4 Ends v0.1.1
+Yii 2 Advanced 4 Ends v0.2.0-beta
 =====================
 
 [![License](https://poser.pugx.org/p2made/yii2-a4e/license)](https://packagist.org/packages/p2made/yii2-p2y2-things-demo)
