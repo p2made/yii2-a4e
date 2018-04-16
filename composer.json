@@ -17,7 +17,7 @@
 		"source": "https://github.com/p2made/yii2-a4e"
 	},
 
-	"version": "0.1.2-beta",
+	"version": "0.1.1",
 	"minimum-stability": "dev",
 	"prefer-stable" : true,
 
@@ -25,9 +25,9 @@
 		"php": ">=5.4.0",
 		"yiisoft/yii2": "^2.0",
 		"yiisoft/yii2-swiftmailer": "^2.0",
-		"p2made/yii2-p2y2-things": "dev-v3-refactor as 2.8.1",
-		"p2made/yii2-p2y2-things-demo": "dev-v3-refactor as 2.8.1",
-		"p2made/yii2-startbootstrap-themes": "2.5.2-beta",
-		"p2made/yii2-sb-admin-theme": "2.16.3-beta"
+		"p2made/yii2-p2y2-things": "^2.8",
+		"p2made/yii2-p2y2-things-demo": "^2.8",
+		"p2made/yii2-startbootstrap-themes": "^2.16",
+		"p2made/yii2-sb-admin-theme": "^2.5"
 	}
 }
